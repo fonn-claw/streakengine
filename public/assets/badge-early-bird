@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- Achievement: Early Bird (7am workout) -->
+  <!-- Badge border -->
+  <rect x="2" y="2" width="44" height="44" fill="none" stroke="#FFD460" stroke-width="3"/>
+  <rect x="2" y="2" width="6" height="6" fill="#00D2FF"/>
+  <rect x="40" y="2" width="6" height="6" fill="#00D2FF"/>
+  <rect x="2" y="40" width="6" height="6" fill="#00D2FF"/>
+  <rect x="40" y="40" width="6" height="6" fill="#00D2FF"/>
+  <!-- Sun (pixel) -->
+  <rect x="20" y="8" width="8" height="2" fill="#FFD460"/>
+  <rect x="18" y="10" width="12" height="2" fill="#FFD460"/>
+  <rect x="18" y="12" width="12" height="2" fill="#FFD460"/>
+  <rect x="20" y="14" width="8" height="2" fill="#FFD460"/>
+  <!-- Sun rays -->
+  <rect x="22" y="4" width="4" height="2" fill="#FFD460"/>
+  <rect x="12" y="10" width="4" height="2" fill="#FFD460"/>
+  <rect x="32" y="10" width="4" height="2" fill="#FFD460"/>
+  <!-- Horizon line -->
+  <rect x="8" y="18" width="32" height="2" fill="#00D2FF"/>
+  <!-- Bird silhouette (pixel) -->
+  <rect x="14" y="22" width="2" height="2" fill="#FFD460"/>
+  <rect x="16" y="24" width="2" height="2" fill="#FFD460"/>
+  <rect x="18" y="26" width="4" height="2" fill="#FFD460"/>
+  <rect x="22" y="24" width="2" height="2" fill="#FFD460"/>
+  <rect x="24" y="22" width="2" height="2" fill="#FFD460"/>
+  <rect x="20" y="28" width="2" height="2" fill="#FFD460"/>
+  <!-- "7AM" text -->
+  <rect x="12" y="34" width="6" height="2" fill="#00D2FF"/>
+  <rect x="16" y="36" width="2" height="2" fill="#00D2FF"/>
+  <rect x="14" y="38" width="2" height="2" fill="#00D2FF"/>
+  <rect x="12" y="40" width="2" height="2" fill="#00D2FF"/>
+  <rect x="12" y="38" width="2" height="2" fill="#00D2FF"/>
+</svg>
