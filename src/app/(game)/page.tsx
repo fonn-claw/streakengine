@@ -1,22 +1,34 @@
-import { PixelCard } from "@/components/ui/pixel-card";
+import { eq } from "drizzle-orm";
+import { requireAuth } from "@/lib/auth";
+import { db } from "@/db";
+import { users } from "@/db/schema";
+import { getTodayQuests } from "@/lib/queries/habits";
+import { getStreakState } from "@/lib/queries/streaks";
+import { QuestBoard } from "@/components/quest-board";
 
-export default function HomePage() {
+export default async function HomePage() {
+  const session = await requireAuth();
+
+  const user = await db.query.users.findFirst({
+    where: eq(users.id, session.userId),
+  });
+
+  if (!user) {
+    throw new Error("User not found");
+  }
+
+  const [quests, streakState] = await Promise.all([
+    getTodayQuests(session.userId, user.timezone),
+    getStreakState(session.userId, user.timezone),
+  ]);
+
   return (
-    <div className="flex flex-col items-center gap-6 py-8">
-      <PixelCard className="w-full flex flex-col items-center gap-4 py-8">
-        <img
-          src="/assets/empty-quests.svg"
-          alt="No quests"
-          width={200}
-          height={160}
-        />
-        <h1 className="font-heading text-primary text-[14px] text-center">
-          QUEST BOARD
-        </h1>
-        <p className="font-body text-text-dim text-[12px] text-center">
-          Your daily quests will appear here
-        </p>
-      </PixelCard>
-    </div>
+    <QuestBoard
+      quests={quests}
+      multiplier={streakState.multiplier}
+      streakState={streakState}
+      level={user.level}
+      totalXp={user.totalXp}
+    />
   );
 }
