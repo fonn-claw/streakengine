@@ -6,3 +6,14 @@ export { achievements } from "./achievements";
 export { userAchievements } from "./user-achievements";
 export { friendships } from "./friendships";
 export { challenges, challengeParticipants } from "./challenges";
+export {
+  usersRelations,
+  habitsRelations,
+  habitLogsRelations,
+  streaksRelations,
+  achievementsRelations,
+  userAchievementsRelations,
+  friendshipsRelations,
+  challengesRelations,
+  challengeParticipantsRelations,
+} from "../relations";
