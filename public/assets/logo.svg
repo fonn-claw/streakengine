@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48">
+  <!-- StreakEngine pixel logo -->
+  <!-- Flame icon (left) -->
+  <rect x="4" y="8" width="4" height="2" fill="#E94560"/>
+  <rect x="2" y="10" width="8" height="2" fill="#E94560"/>
+  <rect x="0" y="12" width="12" height="2" fill="#E94560"/>
+  <rect x="0" y="14" width="12" height="2" fill="#E94560"/>
+  <rect x="0" y="16" width="12" height="2" fill="#E94560"/>
+  <rect x="0" y="18" width="12" height="2" fill="#E94560"/>
+  <rect x="2" y="20" width="8" height="2" fill="#E94560"/>
+  <rect x="2" y="22" width="8" height="2" fill="#E94560"/>
+  <rect x="4" y="24" width="4" height="2" fill="#E94560"/>
+  <rect x="4" y="26" width="4" height="2" fill="#E94560"/>
+  <!-- Inner flame -->
+  <rect x="4" y="14" width="4" height="2" fill="#FFD460"/>
+  <rect x="4" y="16" width="4" height="2" fill="#FFD460"/>
+  <rect x="4" y="18" width="4" height="2" fill="#FFD460"/>
+  <rect x="4" y="20" width="4" height="2" fill="#FFD460"/>
+  <!-- "STREAK" text - pixel block letters -->
+  <!-- S -->
+  <rect x="18" y="10" width="10" height="2" fill="#E94560"/>
+  <rect x="18" y="12" width="4" height="2" fill="#E94560"/>
+  <rect x="18" y="14" width="10" height="2" fill="#E94560"/>
+  <rect x="24" y="16" width="4" height="2" fill="#E94560"/>
+  <rect x="18" y="18" width="10" height="2" fill="#E94560"/>
+  <!-- T -->
+  <rect x="30" y="10" width="10" height="2" fill="#E94560"/>
+  <rect x="34" y="12" width="2" height="2" fill="#E94560"/>
+  <rect x="34" y="14" width="2" height="2" fill="#E94560"/>
+  <rect x="34" y="16" width="2" height="2" fill="#E94560"/>
+  <rect x="34" y="18" width="2" height="2" fill="#E94560"/>
+  <!-- R -->
+  <rect x="42" y="10" width="8" height="2" fill="#E94560"/>
+  <rect x="42" y="12" width="2" height="2" fill="#E94560"/>
+  <rect x="48" y="12" width="2" height="2" fill="#E94560"/>
+  <rect x="42" y="14" width="8" height="2" fill="#E94560"/>
+  <rect x="42" y="16" width="2" height="2" fill="#E94560"/>
+  <rect x="46" y="16" width="2" height="2" fill="#E94560"/>
+  <rect x="42" y="18" width="2" height="2" fill="#E94560"/>
+  <rect x="48" y="18" width="2" height="2" fill="#E94560"/>
+  <!-- E -->
+  <rect x="52" y="10" width="8" height="2" fill="#E94560"/>
+  <rect x="52" y="12" width="2" height="2" fill="#E94560"/>
+  <rect x="52" y="14" width="8" height="2" fill="#E94560"/>
+  <rect x="52" y="16" width="2" height="2" fill="#E94560"/>
+  <rect x="52" y="18" width="8" height="2" fill="#E94560"/>
+  <!-- A -->
+  <rect x="62" y="10" width="8" height="2" fill="#E94560"/>
+  <rect x="62" y="12" width="2" height="2" fill="#E94560"/>
+  <rect x="68" y="12" width="2" height="2" fill="#E94560"/>
+  <rect x="62" y="14" width="8" height="2" fill="#E94560"/>
+  <rect x="62" y="16" width="2" height="2" fill="#E94560"/>
+  <rect x="68" y="16" width="2" height="2" fill="#E94560"/>
+  <rect x="62" y="18" width="2" height="2" fill="#E94560"/>
+  <rect x="68" y="18" width="2" height="2" fill="#E94560"/>
+  <!-- K -->
+  <rect x="72" y="10" width="2" height="2" fill="#E94560"/>
+  <rect x="78" y="10" width="2" height="2" fill="#E94560"/>
+  <rect x="72" y="12" width="2" height="2" fill="#E94560"/>
+  <rect x="76" y="12" width="2" height="2" fill="#E94560"/>
+  <rect x="72" y="14" width="6" height="2" fill="#E94560"/>
+  <rect x="72" y="16" width="2" height="2" fill="#E94560"/>
+  <rect x="76" y="16" width="2" height="2" fill="#E94560"/>
+  <rect x="72" y="18" width="2" height="2" fill="#E94560"/>
+  <rect x="78" y="18" width="2" height="2" fill="#E94560"/>
+
+  <!-- "ENGINE" text - below, in gold -->
+  <!-- E -->
+  <rect x="18" y="24" width="8" height="2" fill="#FFD460"/>
+  <rect x="18" y="26" width="2" height="2" fill="#FFD460"/>
+  <rect x="18" y="28" width="8" height="2" fill="#FFD460"/>
+  <rect x="18" y="30" width="2" height="2" fill="#FFD460"/>
+  <rect x="18" y="32" width="8" height="2" fill="#FFD460"/>
+  <!-- N -->
+  <rect x="28" y="24" width="2" height="2" fill="#FFD460"/>
+  <rect x="36" y="24" width="2" height="2" fill="#FFD460"/>
+  <rect x="28" y="26" width="4" height="2" fill="#FFD460"/>
+  <rect x="36" y="26" width="2" height="2" fill="#FFD460"/>
+  <rect x="28" y="28" width="2" height="2" fill="#FFD460"/>
+  <rect x="32" y="28" width="2" height="2" fill="#FFD460"/>
+  <rect x="36" y="28" width="2" height="2" fill="#FFD460"/>
+  <rect x="28" y="30" width="2" height="2" fill="#FFD460"/>
+  <rect x="34" y="30" width="4" height="2" fill="#FFD460"/>
+  <rect x="28" y="32" width="2" height="2" fill="#FFD460"/>
+  <rect x="36" y="32" width="2" height="2" fill="#FFD460"/>
+  <!-- G -->
+  <rect x="40" y="24" width="8" height="2" fill="#FFD460"/>
+  <rect x="40" y="26" width="2" height="2" fill="#FFD460"/>
+  <rect x="40" y="28" width="2" height="2" fill="#FFD460"/>
+  <rect x="44" y="28" width="4" height="2" fill="#FFD460"/>
+  <rect x="40" y="30" width="2" height="2" fill="#FFD460"/>
+  <rect x="46" y="30" width="2" height="2" fill="#FFD460"/>
+  <rect x="40" y="32" width="8" height="2" fill="#FFD460"/>
+  <!-- I -->
+  <rect x="50" y="24" width="6" height="2" fill="#FFD460"/>
+  <rect x="52" y="26" width="2" height="2" fill="#FFD460"/>
+  <rect x="52" y="28" width="2" height="2" fill="#FFD460"/>
+  <rect x="52" y="30" width="2" height="2" fill="#FFD460"/>
+  <rect x="50" y="32" width="6" height="2" fill="#FFD460"/>
+  <!-- N -->
+  <rect x="58" y="24" width="2" height="2" fill="#FFD460"/>
+  <rect x="66" y="24" width="2" height="2" fill="#FFD460"/>
+  <rect x="58" y="26" width="4" height="2" fill="#FFD460"/>
+  <rect x="66" y="26" width="2" height="2" fill="#FFD460"/>
+  <rect x="58" y="28" width="2" height="2" fill="#FFD460"/>
+  <rect x="62" y="28" width="2" height="2" fill="#FFD460"/>
+  <rect x="66" y="28" width="2" height="2" fill="#FFD460"/>
+  <rect x="58" y="30" width="2" height="2" fill="#FFD460"/>
+  <rect x="64" y="30" width="4" height="2" fill="#FFD460"/>
+  <rect x="58" y="32" width="2" height="2" fill="#FFD460"/>
+  <rect x="66" y="32" width="2" height="2" fill="#FFD460"/>
+  <!-- E -->
+  <rect x="70" y="24" width="8" height="2" fill="#FFD460"/>
+  <rect x="70" y="26" width="2" height="2" fill="#FFD460"/>
+  <rect x="70" y="28" width="8" height="2" fill="#FFD460"/>
+  <rect x="70" y="30" width="2" height="2" fill="#FFD460"/>
+  <rect x="70" y="32" width="8" height="2" fill="#FFD460"/>
+
+  <!-- Decorative XP stars -->
+  <rect x="86" y="12" width="2" height="2" fill="#FFD460"/>
+  <rect x="86" y="28" width="2" height="2" fill="#E94560"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- Pixel flame icon - streak active -->
+  <rect x="11" y="1" width="2" height="2" fill="#E94560"/>
+  <rect x="9" y="3" width="6" height="2" fill="#E94560"/>
+  <rect x="7" y="5" width="10" height="2" fill="#E94560"/>
+  <rect x="5" y="7" width="14" height="2" fill="#E94560"/>
+  <rect x="5" y="9" width="14" height="2" fill="#E94560"/>
+  <rect x="5" y="11" width="14" height="2" fill="#E94560"/>
+  <rect x="7" y="13" width="10" height="2" fill="#E94560"/>
+  <rect x="7" y="15" width="10" height="2" fill="#E94560"/>
+  <rect x="9" y="17" width="6" height="2" fill="#E94560"/>
+  <rect x="9" y="19" width="6" height="2" fill="#E94560"/>
+  <rect x="11" y="21" width="2" height="2" fill="#E94560"/>
+  <!-- Inner flame (gold) -->
+  <rect x="11" y="9" width="2" height="2" fill="#FFD460"/>
+  <rect x="9" y="11" width="6" height="2" fill="#FFD460"/>
+  <rect x="9" y="13" width="6" height="2" fill="#FFD460"/>
+  <rect x="11" y="15" width="2" height="2" fill="#FFD460"/>
+  <rect x="11" y="17" width="2" height="2" fill="#FFD460"/>
+</svg>

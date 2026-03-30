@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Achievement badge frame -->
+  <!-- Outer border -->
+  <rect x="4" y="4" width="56" height="56" fill="none" stroke="#533483" stroke-width="3"/>
+  <!-- Inner border -->
+  <rect x="8" y="8" width="48" height="48" fill="none" stroke="#FFD460" stroke-width="2"/>
+  <!-- Corner decorations -->
+  <rect x="4" y="4" width="6" height="6" fill="#FFD460"/>
+  <rect x="54" y="4" width="6" height="6" fill="#FFD460"/>
+  <rect x="4" y="54" width="6" height="6" fill="#FFD460"/>
+  <rect x="54" y="54" width="6" height="6" fill="#FFD460"/>
+</svg>

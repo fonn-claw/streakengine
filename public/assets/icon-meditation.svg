@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- Pixel lotus/meditation - meditation habit -->
+  <!-- Center petal -->
+  <rect x="10" y="4" width="4" height="2" fill="#A855F7"/>
+  <rect x="10" y="6" width="4" height="2" fill="#A855F7"/>
+  <!-- Left petal -->
+  <rect x="4" y="8" width="4" height="2" fill="#A855F7"/>
+  <rect x="6" y="10" width="4" height="2" fill="#A855F7"/>
+  <!-- Right petal -->
+  <rect x="16" y="8" width="4" height="2" fill="#A855F7"/>
+  <rect x="14" y="10" width="4" height="2" fill="#A855F7"/>
+  <!-- Center -->
+  <rect x="8" y="8" width="8" height="2" fill="#EAEAEA"/>
+  <rect x="10" y="10" width="4" height="2" fill="#EAEAEA"/>
+  <!-- Base -->
+  <rect x="6" y="12" width="12" height="2" fill="#A855F7"/>
+  <rect x="4" y="14" width="16" height="2" fill="#A855F7"/>
+  <!-- Stem -->
+  <rect x="10" y="16" width="4" height="2" fill="#A855F7"/>
+  <rect x="8" y="18" width="8" height="2" fill="#A855F7"/>
+</svg>

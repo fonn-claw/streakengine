@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160">
+  <!-- Empty state: no quests today -->
+  <!-- Scroll/parchment outline -->
+  <rect x="40" y="20" width="120" height="120" fill="none" stroke="#533483" stroke-width="3"/>
+  <rect x="44" y="24" width="112" height="112" fill="none" stroke="#533483" stroke-width="1"/>
+  <!-- Empty quest lines -->
+  <rect x="56" y="44" width="8" height="8" fill="none" stroke="#8B8B9E" stroke-width="2"/>
+  <rect x="72" y="46" width="60" height="4" fill="#8B8B9E" opacity="0.3"/>
+  <rect x="56" y="64" width="8" height="8" fill="none" stroke="#8B8B9E" stroke-width="2"/>
+  <rect x="72" y="66" width="60" height="4" fill="#8B8B9E" opacity="0.3"/>
+  <rect x="56" y="84" width="8" height="8" fill="none" stroke="#8B8B9E" stroke-width="2"/>
+  <rect x="72" y="86" width="60" height="4" fill="#8B8B9E" opacity="0.3"/>
+  <!-- Pixel sword resting on scroll -->
+  <rect x="88" y="104" width="2" height="2" fill="#E94560"/>
+  <rect x="90" y="102" width="2" height="2" fill="#E94560"/>
+  <rect x="92" y="100" width="2" height="2" fill="#E94560"/>
+  <rect x="94" y="98" width="2" height="2" fill="#8B8B9E"/>
+  <rect x="96" y="96" width="2" height="2" fill="#8B8B9E"/>
+  <rect x="98" y="94" width="2" height="2" fill="#8B8B9E"/>
+  <rect x="100" y="92" width="2" height="2" fill="#8B8B9E"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- Pixel people - friends nav icon -->
+  <!-- Person 1 (left) -->
+  <rect x="4" y="4" width="4" height="4" fill="#00D2FF"/>
+  <rect x="4" y="10" width="4" height="2" fill="#EAEAEA"/>
+  <rect x="2" y="12" width="8" height="4" fill="#EAEAEA"/>
+  <rect x="4" y="16" width="2" height="4" fill="#EAEAEA"/>
+  <rect x="8" y="16" width="2" height="4" fill="#EAEAEA"/>
+  <!-- Person 2 (right) -->
+  <rect x="16" y="4" width="4" height="4" fill="#00D2FF"/>
+  <rect x="16" y="10" width="4" height="2" fill="#EAEAEA"/>
+  <rect x="14" y="12" width="8" height="4" fill="#EAEAEA"/>
+  <rect x="16" y="16" width="2" height="4" fill="#EAEAEA"/>
+  <rect x="20" y="16" width="2" height="4" fill="#EAEAEA"/>
+</svg>
