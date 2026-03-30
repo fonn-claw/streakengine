@@ -79,12 +79,12 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### UI & Design
 
-- [ ] **UIDN-01**: Pixel-art game aesthetic with squared edges, thick borders (3px), bold colors
-- [ ] **UIDN-02**: Dark theme only (--color-bg: #1A1A2E)
-- [ ] **UIDN-03**: Press Start 2P font for headings/numbers, Silkscreen for body text
-- [ ] **UIDN-04**: Mobile-first stacked layout with bottom tab bar (Home/Quests/Friends/Profile)
-- [ ] **UIDN-05**: Desktop: top nav strip, content max-width 720px centered
-- [ ] **UIDN-06**: All pre-generated pixel-art assets from public/assets/ used appropriately
+- [x] **UIDN-01**: Pixel-art game aesthetic with squared edges, thick borders (3px), bold colors
+- [x] **UIDN-02**: Dark theme only (--color-bg: #1A1A2E)
+- [x] **UIDN-03**: Press Start 2P font for headings/numbers, Silkscreen for body text
+- [x] **UIDN-04**: Mobile-first stacked layout with bottom tab bar (Home/Quests/Friends/Profile)
+- [x] **UIDN-05**: Desktop: top nav strip, content max-width 720px centered
+- [x] **UIDN-06**: All pre-generated pixel-art assets from public/assets/ used appropriately
 - [x] **UIDN-07**: Rewarding animations: XP float, streak pulse, level-up flash, quest complete stamp
 
 ### Demo Data
@@ -138,12 +138,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 | AUTH-02 | Phase 1 | Complete |
 | AUTH-03 | Phase 1 | Complete |
 | AUTH-04 | Phase 1 | Complete |
-| UIDN-01 | Phase 1 | Pending |
-| UIDN-02 | Phase 1 | Pending |
-| UIDN-03 | Phase 1 | Pending |
-| UIDN-04 | Phase 1 | Pending |
-| UIDN-05 | Phase 1 | Pending |
-| UIDN-06 | Phase 1 | Pending |
+| UIDN-01 | Phase 1 | Complete |
+| UIDN-02 | Phase 1 | Complete |
+| UIDN-03 | Phase 1 | Complete |
+| UIDN-04 | Phase 1 | Complete |
+| UIDN-05 | Phase 1 | Complete |
+| UIDN-06 | Phase 1 | Complete |
 | UIDN-07 | Phase 1 | Complete |
 | HBIT-01 | Phase 2 | Pending |
 | HBIT-02 | Phase 2 | Pending |
