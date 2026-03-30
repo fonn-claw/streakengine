@@ -19,18 +19,42 @@
   --font-body: var(--font-silkscreen);
 }
 
-/* Pixel-art: no rounded corners anywhere */
+/* Kill all rounded corners globally -- pixel art aesthetic */
 * {
   border-radius: 0 !important;
 }
 
-/* Default thick border for panels */
+/* Pixel border utility */
 .pixel-border {
   border: 3px solid var(--color-border);
 }
 
+/* Body defaults */
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-body), monospace;
+}
+
+/* Heading font utility */
+.font-pixel {
+  font-family: var(--font-heading), monospace;
+}
+
+/* Scrollbar styling for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+}
+
+/* Tileable background pattern */
+.bg-game {
+  background-image: url('/assets/bg-pattern.png');
+  background-repeat: repeat;
+  background-size: 256px 256px;
 }
