@@ -134,13 +134,69 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| (Updated by roadmapper) | | |
+| AUTH-01 | Phase 1 | Pending |
+| AUTH-02 | Phase 1 | Pending |
+| AUTH-03 | Phase 1 | Pending |
+| AUTH-04 | Phase 1 | Pending |
+| UIDN-01 | Phase 1 | Pending |
+| UIDN-02 | Phase 1 | Pending |
+| UIDN-03 | Phase 1 | Pending |
+| UIDN-04 | Phase 1 | Pending |
+| UIDN-05 | Phase 1 | Pending |
+| UIDN-06 | Phase 1 | Pending |
+| UIDN-07 | Phase 1 | Pending |
+| HBIT-01 | Phase 2 | Pending |
+| HBIT-02 | Phase 2 | Pending |
+| HBIT-03 | Phase 2 | Pending |
+| HBIT-04 | Phase 2 | Pending |
+| HBIT-05 | Phase 2 | Pending |
+| STRK-01 | Phase 2 | Pending |
+| STRK-02 | Phase 2 | Pending |
+| STRK-03 | Phase 2 | Pending |
+| STRK-04 | Phase 2 | Pending |
+| STRK-05 | Phase 2 | Pending |
+| STRK-06 | Phase 2 | Pending |
+| XPLV-01 | Phase 2 | Pending |
+| XPLV-02 | Phase 2 | Pending |
+| XPLV-03 | Phase 2 | Pending |
+| XPLV-04 | Phase 2 | Pending |
+| XPLV-05 | Phase 2 | Pending |
+| LDBD-01 | Phase 3 | Pending |
+| LDBD-02 | Phase 3 | Pending |
+| LDBD-03 | Phase 3 | Pending |
+| LDBD-04 | Phase 3 | Pending |
+| LDBD-05 | Phase 3 | Pending |
+| ACHV-01 | Phase 3 | Pending |
+| ACHV-02 | Phase 3 | Pending |
+| ACHV-03 | Phase 3 | Pending |
+| ACHV-04 | Phase 3 | Pending |
+| ACHV-05 | Phase 3 | Pending |
+| SOCL-01 | Phase 3 | Pending |
+| SOCL-02 | Phase 3 | Pending |
+| SOCL-03 | Phase 3 | Pending |
+| SOCL-04 | Phase 3 | Pending |
+| PROF-01 | Phase 3 | Pending |
+| PROF-02 | Phase 3 | Pending |
+| PROF-03 | Phase 3 | Pending |
+| PROF-04 | Phase 3 | Pending |
+| COCH-01 | Phase 4 | Pending |
+| COCH-02 | Phase 4 | Pending |
+| COCH-03 | Phase 4 | Pending |
+| COCH-04 | Phase 4 | Pending |
+| COCH-05 | Phase 4 | Pending |
+| DEMO-01 | Phase 5 | Pending |
+| DEMO-02 | Phase 5 | Pending |
+| DEMO-03 | Phase 5 | Pending |
+| DEMO-04 | Phase 5 | Pending |
+| DEMO-05 | Phase 5 | Pending |
+| DEMO-06 | Phase 5 | Pending |
+| DEMO-07 | Phase 5 | Pending |
 
 **Coverage:**
-- v1 requirements: 45 total
-- Mapped to phases: 0
-- Unmapped: 45
+- v1 requirements: 57 total
+- Mapped to phases: 57
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-30*
-*Last updated: 2026-03-30 after initial definition*
+*Last updated: 2026-03-30 after roadmap creation*
