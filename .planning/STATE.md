@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-stopped_at: Phase 4 context gathered
-last_updated: "2026-03-30T11:09:40.054Z"
+stopped_at: Completed 04-01-PLAN.md
+last_updated: "2026-03-30T11:21:44.921Z"
 progress:
   total_phases: 5
   completed_phases: 3
-  total_plans: 7
-  completed_plans: 7
+  total_plans: 9
+  completed_plans: 8
 ---
 
 # Project State
@@ -19,12 +19,12 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-30)
 
 **Core value:** Users feel compelled to return daily because breaking their streak has real psychological weight, earning XP feels meaningful, and friendly competition creates accountability.
-**Current focus:** Phase 03 — social-achievements
+**Current focus:** Phase 04 — coach-dashboard
 
 ## Current Position
 
-Phase: 03 (social-achievements) — EXECUTING
-Plan: 3 of 3
+Phase: 04 (coach-dashboard) — EXECUTING
+Plan: 2 of 2
 
 ## Performance Metrics
 
@@ -52,6 +52,7 @@ Plan: 3 of 3
 | Phase 03 P01 | 4min | 2 tasks | 12 files |
 | Phase 03 P02 | 2min | 2 tasks | 9 files |
 | Phase 03 P03 | 3min | 2 tasks | 8 files |
+| Phase 04 P01 | 2min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -85,6 +86,9 @@ Recent decisions affecting current work:
 - [Phase 03]: Achievement celebration shows one at a time with 1.2s auto-dismiss and click-to-dismiss
 - [Phase 03]: RPG stat mapping: STR=Exercise, INT=Meditation, DEX=Water consistency, CHA=Social actions
 - [Phase 03]: Home page pre-fetches achievements to build achievementMap for celebration display
+- [Phase 04]: Engagement ratio: thisWeekLogs/lastWeekLogs, fallback 1.0 for zero last-week
+- [Phase 04]: New users (<14 days) forced green regardless of engagement ratio
+- [Phase 04]: Inline SQL subqueries in Drizzle select for single-pass coach aggregation
 
 ### Pending Todos
 
@@ -96,6 +100,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-30T11:09:40.052Z
-Stopped at: Phase 4 context gathered
-Resume file: .planning/phases/04-coach-dashboard/04-CONTEXT.md
+Last session: 2026-03-30T11:21:44.915Z
+Stopped at: Completed 04-01-PLAN.md
+Resume file: None
