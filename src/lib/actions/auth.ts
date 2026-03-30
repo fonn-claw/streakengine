@@ -44,7 +44,7 @@ export async function login(
   session.isLoggedIn = true;
   await session.save();
 
-  redirect(user.role === "coach" ? "/coach/dashboard" : "/");
+  redirect(user.role === "coach" ? "/dashboard" : "/");
 }
 
 export async function logout() {
