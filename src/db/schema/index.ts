@@ -6,6 +6,7 @@ export { achievements } from "./achievements";
 export { userAchievements } from "./user-achievements";
 export { friendships } from "./friendships";
 export { challenges, challengeParticipants } from "./challenges";
+export { nudges } from "./nudges";
 export {
   usersRelations,
   habitsRelations,
@@ -16,4 +17,5 @@ export {
   friendshipsRelations,
   challengesRelations,
   challengeParticipantsRelations,
+  nudgesRelations,
 } from "../relations";

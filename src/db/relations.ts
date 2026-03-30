@@ -9,6 +9,7 @@ import {
   challenges,
   habits,
   achievements,
+  nudges,
 } from "./schema";
 
 export const usersRelations = relations(users, ({ many }) => ({
@@ -89,3 +90,16 @@ export const challengeParticipantsRelations = relations(
     }),
   })
 );
+
+export const nudgesRelations = relations(nudges, ({ one }) => ({
+  sender: one(users, {
+    fields: [nudges.senderId],
+    references: [users.id],
+    relationName: "nudgeSender",
+  }),
+  recipient: one(users, {
+    fields: [nudges.recipientId],
+    references: [users.id],
+    relationName: "nudgeRecipient",
+  }),
+}));
