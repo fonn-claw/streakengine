@@ -62,12 +62,12 @@ Plans:
   3. Achievement grid on profile shows unlocked badges as pixel art and locked ones as dark "?" squares; unlocking triggers sparkle animation
   4. Profile displays character sheet with level, total XP, RPG stat block, and habit XP breakdown
   5. Weekly challenge shows progress with blocky progress blocks for participating users
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
-- [ ] 03-03: TBD
+- [ ] 03-01-PLAN.md — Nudges schema, achievement engine, all data queries (leaderboard, friends, achievements, profile, challenges), server actions, habit action integration
+- [ ] 03-02-PLAN.md — Leaderboard components (home peek + full), friends list with nudge mechanic, challenge progress card, page wiring (home, friends, quests)
+- [ ] 03-03-PLAN.md — Achievement grid, celebration animation, RPG stat block, habit XP breakdown, profile page, QuestBoard achievement unlock integration
 
 ### Phase 4: Coach Dashboard
 **Goal**: Coaches can monitor community engagement and intervene when users are at risk of churning
