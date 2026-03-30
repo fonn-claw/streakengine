@@ -22,12 +22,13 @@ Users feel compelled to return daily because breaking their streak has real psyc
 - ✓ XP and leveling system with progress bars — Phase 2
 - ✓ Rewarding animations (XP float, streak pulse, level-up flash, quest complete stamp) — Phase 2
 
+- ✓ Weekly leaderboard (resets Monday) with friend competition — Phase 3
+- ✓ Achievement/badge system with surprise unlocks — Phase 3
+- ✓ Weekly challenges with progress tracking — Phase 3
+- ✓ Friend/rival system with nudges — Phase 3
+
 ### Active
 
-- [ ] Weekly leaderboard (resets Monday) with friend competition
-- [ ] Achievement/badge system with surprise unlocks
-- [ ] Weekly challenges with progress tracking
-- [ ] Friend/rival system with nudges
 - [ ] Coach/admin dashboard with engagement analytics
 - [ ] At-risk user detection (30%+ engagement drop flags user)
 - [ ] Realistic demo data: 15 users, 3 months of engagement history
@@ -71,4 +72,4 @@ Users feel compelled to return daily because breaking their streak has real psyc
 | Cookie-based auth (no JWT) | Simpler for demo, session-based | — Pending |
 
 ---
-*Last updated: 2026-03-30 after Phase 2 completion*
+*Last updated: 2026-03-30 after Phase 3 completion*
