@@ -16,7 +16,7 @@ export function UserCardGrid({ users }: { users: CoachUserCard[] }) {
   }
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
       {users.map((user) => (
         <UserCard user={user} key={user.userId} />
       ))}

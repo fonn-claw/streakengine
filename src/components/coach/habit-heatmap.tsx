@@ -32,7 +32,7 @@ export function HabitHeatmap({ data }: { data: HabitDay[] }) {
           <span className="w-16 shrink-0 font-body text-[10px] text-text-dim truncate">
             {habit.habitIcon ? (
               <img
-                src={`/assets/${habit.habitIcon}`}
+                src={`/assets/${habit.habitIcon}${habit.habitIcon?.endsWith(".svg") ? "" : ".svg"}`}
                 alt=""
                 width={12}
                 height={12}
