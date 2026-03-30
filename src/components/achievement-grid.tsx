@@ -34,7 +34,7 @@ export function AchievementGrid({ achievements }: AchievementGridProps) {
             {achievement.unlockedAt ? (
               <>
                 <img
-                  src={`/assets/${achievement.icon}`}
+                  src={`/assets/${achievement.icon}.svg`}
                   alt={achievement.name}
                   width={32}
                   height={32}
