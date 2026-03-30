@@ -15,6 +15,7 @@ interface CompleteResult {
   newTotalXp: number;
   streakIncremented: boolean;
   newStreak: number;
+  newlyUnlocked: number[];
 }
 
 interface QuestCardProps {

@@ -4,6 +4,7 @@ import { useState, useCallback } from "react";
 import { StreakBanner } from "@/components/streak-banner";
 import { QuestCard } from "@/components/quest-card";
 import { LevelUpFlash } from "@/components/animations/level-up";
+import { AchievementUnlock } from "@/components/achievement-unlock";
 import type { Quest } from "@/lib/queries/habits";
 import type { StreakState } from "@/lib/queries/streaks";
 
@@ -13,6 +14,7 @@ interface QuestBoardProps {
   streakState: StreakState;
   level: number;
   totalXp: number;
+  achievementMap?: Record<number, { name: string; icon: string }>;
 }
 
 export function QuestBoard({
@@ -21,12 +23,14 @@ export function QuestBoard({
   streakState,
   level,
   totalXp,
+  achievementMap,
 }: QuestBoardProps) {
   const [localQuests, setLocalQuests] = useState<Quest[]>(quests);
   const [currentLevel, setCurrentLevel] = useState(level);
   const [currentXp, setCurrentXp] = useState(totalXp);
   const [showLevelUp, setShowLevelUp] = useState(false);
   const [newLevel, setNewLevel] = useState(level);
+  const [unlockedIds, setUnlockedIds] = useState<number[]>([]);
 
   const handleQuestComplete = useCallback(
     (
@@ -38,6 +42,7 @@ export function QuestBoard({
         newTotalXp: number;
         progress?: number;
         completed?: boolean;
+        newlyUnlocked?: number[];
       },
     ) => {
       // Update XP and level
@@ -49,6 +54,11 @@ export function QuestBoard({
         setNewLevel(result.newLevel);
         setCurrentLevel(result.newLevel);
         setShowLevelUp(true);
+      }
+
+      // Trigger achievement celebration if newly unlocked
+      if (result.newlyUnlocked && result.newlyUnlocked.length > 0) {
+        setUnlockedIds(result.newlyUnlocked);
       }
 
       // Update quest state locally
@@ -80,6 +90,13 @@ export function QuestBoard({
         show={showLevelUp}
         level={newLevel}
         onComplete={() => setShowLevelUp(false)}
+      />
+
+      {/* Achievement Unlock celebration */}
+      <AchievementUnlock
+        achievementIds={unlockedIds}
+        achievementMap={achievementMap}
+        onComplete={() => setUnlockedIds([])}
       />
 
       {/* Streak Hero Banner */}
