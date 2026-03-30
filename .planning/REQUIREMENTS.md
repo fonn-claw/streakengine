@@ -66,8 +66,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [x] **COCH-01**: Coach sees grid of user cards sorted by engagement risk
 - [x] **COCH-02**: Each user card shows streak status, weekly XP, risk indicator (green/yellow/red heart)
-- [ ] **COCH-03**: Coach can expand user card to see quest completion patterns
-- [ ] **COCH-04**: Coach can send nudge directly from expanded user card
+- [x] **COCH-03**: Coach can expand user card to see quest completion patterns
+- [x] **COCH-04**: Coach can send nudge directly from expanded user card
 - [x] **COCH-05**: At-risk detection: flag users with 30%+ engagement drop over 7 days
 
 ### Profile
@@ -181,8 +181,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PROF-04 | Phase 3 | Complete |
 | COCH-01 | Phase 4 | Complete |
 | COCH-02 | Phase 4 | Complete |
-| COCH-03 | Phase 4 | Pending |
-| COCH-04 | Phase 4 | Pending |
+| COCH-03 | Phase 4 | Complete |
+| COCH-04 | Phase 4 | Complete |
 | COCH-05 | Phase 4 | Complete |
 | DEMO-01 | Phase 5 | Pending |
 | DEMO-02 | Phase 5 | Pending |

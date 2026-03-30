@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-stopped_at: Completed 04-01-PLAN.md
-last_updated: "2026-03-30T11:21:44.921Z"
+stopped_at: Completed 04-02-PLAN.md
+last_updated: "2026-03-30T11:24:47.956Z"
 progress:
   total_phases: 5
-  completed_phases: 3
+  completed_phases: 4
   total_plans: 9
-  completed_plans: 8
+  completed_plans: 9
 ---
 
 # Project State
@@ -53,6 +53,7 @@ Plan: 2 of 2
 | Phase 03 P02 | 2min | 2 tasks | 9 files |
 | Phase 03 P03 | 3min | 2 tasks | 8 files |
 | Phase 04 P01 | 2min | 2 tasks | 2 files |
+| Phase 04 P02 | 3min | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -89,6 +90,8 @@ Recent decisions affecting current work:
 - [Phase 04]: Engagement ratio: thisWeekLogs/lastWeekLogs, fallback 1.0 for zero last-week
 - [Phase 04]: New users (<14 days) forced green regardless of engagement ratio
 - [Phase 04]: Inline SQL subqueries in Drizzle select for single-pass coach aggregation
+- [Phase 04]: Heatmap loads lazily on first card expand via useTransition for non-blocking UX
+- [Phase 04]: Nudge state tracked locally after send to avoid unnecessary data refetch
 
 ### Pending Todos
 
@@ -100,6 +103,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-30T11:21:44.915Z
-Stopped at: Completed 04-01-PLAN.md
+Last session: 2026-03-30T11:24:47.952Z
+Stopped at: Completed 04-02-PLAN.md
 Resume file: None
