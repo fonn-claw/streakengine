@@ -9,10 +9,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Authentication
 
-- [ ] **AUTH-01**: User can log in with email and password (3 demo accounts)
-- [ ] **AUTH-02**: User session persists across browser refresh (cookie-based)
-- [ ] **AUTH-03**: User can log out from any page
-- [ ] **AUTH-04**: Different UI routes based on user role (player vs coach)
+- [x] **AUTH-01**: User can log in with email and password (3 demo accounts)
+- [x] **AUTH-02**: User session persists across browser refresh (cookie-based)
+- [x] **AUTH-03**: User can log out from any page
+- [x] **AUTH-04**: Different UI routes based on user role (player vs coach)
 
 ### Habits & Quests
 
@@ -85,7 +85,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **UIDN-04**: Mobile-first stacked layout with bottom tab bar (Home/Quests/Friends/Profile)
 - [ ] **UIDN-05**: Desktop: top nav strip, content max-width 720px centered
 - [ ] **UIDN-06**: All pre-generated pixel-art assets from public/assets/ used appropriately
-- [ ] **UIDN-07**: Rewarding animations: XP float, streak pulse, level-up flash, quest complete stamp
+- [x] **UIDN-07**: Rewarding animations: XP float, streak pulse, level-up flash, quest complete stamp
 
 ### Demo Data
 
@@ -134,17 +134,17 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| AUTH-01 | Phase 1 | Pending |
-| AUTH-02 | Phase 1 | Pending |
-| AUTH-03 | Phase 1 | Pending |
-| AUTH-04 | Phase 1 | Pending |
+| AUTH-01 | Phase 1 | Complete |
+| AUTH-02 | Phase 1 | Complete |
+| AUTH-03 | Phase 1 | Complete |
+| AUTH-04 | Phase 1 | Complete |
 | UIDN-01 | Phase 1 | Pending |
 | UIDN-02 | Phase 1 | Pending |
 | UIDN-03 | Phase 1 | Pending |
 | UIDN-04 | Phase 1 | Pending |
 | UIDN-05 | Phase 1 | Pending |
 | UIDN-06 | Phase 1 | Pending |
-| UIDN-07 | Phase 1 | Pending |
+| UIDN-07 | Phase 1 | Complete |
 | HBIT-01 | Phase 2 | Pending |
 | HBIT-02 | Phase 2 | Pending |
 | HBIT-03 | Phase 2 | Pending |
