@@ -12,11 +12,13 @@ Users feel compelled to return daily because breaking their streak has real psyc
 
 ### Validated
 
-(None yet — ship to validate)
+- ✓ Authentication with demo accounts (3 personas) — Phase 1
+- ✓ Pixel-art game aesthetic with design system — Phase 1
+- ✓ Mobile-first responsive layout with nav — Phase 1
 
 ### Active
 
-- [ ] Authentication with demo accounts (3 personas: power user, coach, new user)
+- [ ] Habit/quest system with XP rewards tied to specific actions
 - [ ] Habit/quest system with XP rewards tied to specific actions
 - [ ] Streak tracking with loss aversion (prominent counter, flame icon, multiplier)
 - [ ] Streak freeze mechanic (1 free freeze per week)
@@ -28,10 +30,8 @@ Users feel compelled to return daily because breaking their streak has real psyc
 - [ ] Friend/rival system with nudges
 - [ ] Coach/admin dashboard with engagement analytics
 - [ ] At-risk user detection (30%+ engagement drop flags user)
-- [ ] Pixel-art game aesthetic (blocky, squared, bold colors, dark theme)
 - [ ] Rewarding animations (XP float, streak pulse, level-up flash, quest complete stamp)
 - [ ] Realistic demo data: 15 users, 3 months of engagement history
-- [ ] Mobile-first stacked layout with bottom tab bar / desktop top nav
 
 ### Out of Scope
 
@@ -72,4 +72,4 @@ Users feel compelled to return daily because breaking their streak has real psyc
 | Cookie-based auth (no JWT) | Simpler for demo, session-based | — Pending |
 
 ---
-*Last updated: 2026-03-30 after initialization*
+*Last updated: 2026-03-30 after Phase 1 completion*
