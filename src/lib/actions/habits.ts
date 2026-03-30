@@ -3,11 +3,54 @@
 import { revalidatePath } from "next/cache";
 import { eq, and, sql } from "drizzle-orm";
 import { db } from "@/db";
-import { users, habits, habitLogs, streaks } from "@/db/schema";
+import { users, habits, habitLogs, streaks, userAchievements } from "@/db/schema";
 import { requireAuth } from "@/lib/auth";
 import { calculateXP, getLevelFromXP } from "@/lib/engine/xp";
 import { evaluateStreak } from "@/lib/engine/streak";
+import {
+  evaluateAchievements,
+  type AchievementContext,
+} from "@/lib/engine/achievements";
+import { getAchievementChecks } from "@/lib/queries/achievements";
+import { getFriendCount } from "@/lib/queries/friends";
 import { getTodayForUser, getYesterdayForUser } from "@/lib/utils";
+
+async function checkAndUnlockAchievements(
+  userId: number,
+  currentStreak: number,
+  timezone: string,
+): Promise<number[]> {
+  const [checks, friendCount] = await Promise.all([
+    getAchievementChecks(userId),
+    getFriendCount(userId),
+  ]);
+
+  const localHour = parseInt(
+    new Intl.DateTimeFormat("en-US", {
+      timeZone: timezone,
+      hour: "numeric",
+      hour12: false,
+    }).format(new Date()),
+    10,
+  );
+
+  const ctx: AchievementContext = {
+    currentStreak,
+    completedAtHour: localHour,
+    friendCount,
+  };
+
+  const newlyUnlocked = evaluateAchievements(checks, ctx);
+
+  if (newlyUnlocked.length > 0) {
+    await db
+      .insert(userAchievements)
+      .values(newlyUnlocked.map((achievementId) => ({ userId, achievementId })))
+      .onConflictDoNothing();
+  }
+
+  return newlyUnlocked;
+}
 
 /**
  * Complete a single-completion habit (Exercise, Meditation, Sleep).
@@ -20,6 +63,7 @@ export async function completeHabit(habitId: number): Promise<{
   newTotalXp: number;
   streakIncremented: boolean;
   newStreak: number;
+  newlyUnlocked: number[];
 }> {
   const session = await requireAuth();
   const userId = session.userId;
@@ -72,6 +116,7 @@ export async function completeHabit(habitId: number): Promise<{
         newTotalXp: user.totalXp,
         streakIncremented: false,
         newStreak: streakRecord?.currentStreak ?? 0,
+        newlyUnlocked: [],
       };
     }
   } catch {
@@ -83,6 +128,7 @@ export async function completeHabit(habitId: number): Promise<{
       newTotalXp: user.totalXp,
       streakIncremented: false,
       newStreak: streakRecord?.currentStreak ?? 0,
+      newlyUnlocked: [],
     };
   }
 
@@ -206,6 +252,8 @@ export async function completeHabit(habitId: number): Promise<{
     streakIncremented = true;
   }
 
+  const newlyUnlocked = await checkAndUnlockAchievements(userId, newStreak, user.timezone);
+
   revalidatePath("/");
 
   return {
@@ -215,6 +263,7 @@ export async function completeHabit(habitId: number): Promise<{
     newTotalXp,
     streakIncremented,
     newStreak,
+    newlyUnlocked,
   };
 }
 
@@ -231,6 +280,7 @@ export async function incrementProgress(habitId: number): Promise<{
   newTotalXp: number;
   streakIncremented: boolean;
   newStreak: number;
+  newlyUnlocked: number[];
 }> {
   const session = await requireAuth();
   const userId = session.userId;
@@ -283,6 +333,7 @@ export async function incrementProgress(habitId: number): Promise<{
         newTotalXp: user.totalXp,
         streakIncremented: false,
         newStreak: streakRecord?.currentStreak ?? 0,
+        newlyUnlocked: [],
       };
     }
 
@@ -447,6 +498,8 @@ export async function incrementProgress(habitId: number): Promise<{
     streakIncremented = true;
   }
 
+  const newlyUnlocked = await checkAndUnlockAchievements(userId, newStreak, user.timezone);
+
   revalidatePath("/");
 
   return {
@@ -458,5 +511,6 @@ export async function incrementProgress(habitId: number): Promise<{
     newTotalXp,
     streakIncremented,
     newStreak,
+    newlyUnlocked,
   };
 }
