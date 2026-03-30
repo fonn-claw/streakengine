@@ -49,10 +49,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Achievements
 
-- [ ] **ACHV-01**: User can view achievement grid on profile (square badges, never circular)
-- [ ] **ACHV-02**: Locked achievements show as dark squares with "?" overlay
+- [x] **ACHV-01**: User can view achievement grid on profile (square badges, never circular)
+- [x] **ACHV-02**: Locked achievements show as dark squares with "?" overlay
 - [x] **ACHV-03**: Achievements unlock based on specific triggers (streak milestones, social actions, time-based)
-- [ ] **ACHV-04**: Achievement unlock triggers celebration animation (pixel sparkles)
+- [x] **ACHV-04**: Achievement unlock triggers celebration animation (pixel sparkles)
 - [x] **ACHV-05**: Pre-defined achievements: First Week, Streak Master (30 days), Early Bird, Social Butterfly
 
 ### Social & Friends
@@ -72,9 +72,9 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Profile
 
-- [ ] **PROF-01**: User sees character sheet with level, total XP, streak history
+- [x] **PROF-01**: User sees character sheet with level, total XP, streak history
 - [x] **PROF-02**: RPG stat block display (STR, INT, DEX, CHA mapped to game metrics)
-- [ ] **PROF-03**: Achievement grid (3-4 columns of square badges)
+- [x] **PROF-03**: Achievement grid (3-4 columns of square badges)
 - [x] **PROF-04**: Habit XP breakdown (which habits contribute most)
 
 ### UI & Design
@@ -166,18 +166,18 @@ Which phases cover which requirements. Updated during roadmap creation.
 | LDBD-03 | Phase 3 | Complete |
 | LDBD-04 | Phase 3 | Complete |
 | LDBD-05 | Phase 3 | Complete |
-| ACHV-01 | Phase 3 | Pending |
-| ACHV-02 | Phase 3 | Pending |
+| ACHV-01 | Phase 3 | Complete |
+| ACHV-02 | Phase 3 | Complete |
 | ACHV-03 | Phase 3 | Complete |
-| ACHV-04 | Phase 3 | Pending |
+| ACHV-04 | Phase 3 | Complete |
 | ACHV-05 | Phase 3 | Complete |
 | SOCL-01 | Phase 3 | Complete |
 | SOCL-02 | Phase 3 | Complete |
 | SOCL-03 | Phase 3 | Complete |
 | SOCL-04 | Phase 3 | Complete |
-| PROF-01 | Phase 3 | Pending |
+| PROF-01 | Phase 3 | Complete |
 | PROF-02 | Phase 3 | Complete |
-| PROF-03 | Phase 3 | Pending |
+| PROF-03 | Phase 3 | Complete |
 | PROF-04 | Phase 3 | Complete |
 | COCH-01 | Phase 4 | Pending |
 | COCH-02 | Phase 4 | Pending |

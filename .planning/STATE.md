@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-stopped_at: Completed 03-02-PLAN.md
-last_updated: "2026-03-30T10:59:23.112Z"
+stopped_at: Completed 03-03-PLAN.md
+last_updated: "2026-03-30T11:04:31.167Z"
 progress:
   total_phases: 5
-  completed_phases: 2
+  completed_phases: 3
   total_plans: 7
-  completed_plans: 6
+  completed_plans: 7
 ---
 
 # Project State
@@ -51,6 +51,7 @@ Plan: 3 of 3
 | Phase 02 P02 | 3min | 2 tasks | 9 files |
 | Phase 03 P01 | 4min | 2 tasks | 12 files |
 | Phase 03 P02 | 2min | 2 tasks | 9 files |
+| Phase 03 P03 | 3min | 2 tasks | 8 files |
 
 ## Accumulated Context
 
@@ -81,6 +82,9 @@ Recent decisions affecting current work:
 - [Phase 03]: onConflictDoNothing for idempotent social actions (nudges, achievements)
 - [Phase 03]: LeaderboardPeek shows 4th row with divider when current user not in top 3
 - [Phase 03]: useTransition for non-blocking server action calls in nudge/dismiss flows
+- [Phase 03]: Achievement celebration shows one at a time with 1.2s auto-dismiss and click-to-dismiss
+- [Phase 03]: RPG stat mapping: STR=Exercise, INT=Meditation, DEX=Water consistency, CHA=Social actions
+- [Phase 03]: Home page pre-fetches achievements to build achievementMap for celebration display
 
 ### Pending Todos
 
@@ -92,6 +96,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-30T10:58:42Z
-Stopped at: Completed 03-02-PLAN.md
+Last session: 2026-03-30T11:04:31.164Z
+Stopped at: Completed 03-03-PLAN.md
 Resume file: None
