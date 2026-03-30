@@ -41,10 +41,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Leaderboard
 
-- [ ] **LDBD-01**: User sees weekly leaderboard on home screen (compact peek)
+- [x] **LDBD-01**: User sees weekly leaderboard on home screen (compact peek)
 - [x] **LDBD-02**: Leaderboard shows rank, username, weekly XP
-- [ ] **LDBD-03**: Top 3 users get trophy icons (gold/silver/bronze)
-- [ ] **LDBD-04**: Current user's row is highlighted
+- [x] **LDBD-03**: Top 3 users get trophy icons (gold/silver/bronze)
+- [x] **LDBD-04**: Current user's row is highlighted
 - [x] **LDBD-05**: Leaderboard resets every Monday
 
 ### Achievements
@@ -57,10 +57,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Social & Friends
 
-- [ ] **SOCL-01**: User can view friends list
+- [x] **SOCL-01**: User can view friends list
 - [x] **SOCL-02**: User can see friends' streak and level (if public)
 - [x] **SOCL-03**: User can send nudge to friend ("You haven't logged today!")
-- [ ] **SOCL-04**: Weekly challenge shows progress with blocky progress blocks
+- [x] **SOCL-04**: Weekly challenge shows progress with blocky progress blocks
 
 ### Coach Dashboard
 
@@ -161,20 +161,20 @@ Which phases cover which requirements. Updated during roadmap creation.
 | XPLV-03 | Phase 2 | Complete |
 | XPLV-04 | Phase 2 | Complete |
 | XPLV-05 | Phase 2 | Complete |
-| LDBD-01 | Phase 3 | Pending |
+| LDBD-01 | Phase 3 | Complete |
 | LDBD-02 | Phase 3 | Complete |
-| LDBD-03 | Phase 3 | Pending |
-| LDBD-04 | Phase 3 | Pending |
+| LDBD-03 | Phase 3 | Complete |
+| LDBD-04 | Phase 3 | Complete |
 | LDBD-05 | Phase 3 | Complete |
 | ACHV-01 | Phase 3 | Pending |
 | ACHV-02 | Phase 3 | Pending |
 | ACHV-03 | Phase 3 | Complete |
 | ACHV-04 | Phase 3 | Pending |
 | ACHV-05 | Phase 3 | Complete |
-| SOCL-01 | Phase 3 | Pending |
+| SOCL-01 | Phase 3 | Complete |
 | SOCL-02 | Phase 3 | Complete |
 | SOCL-03 | Phase 3 | Complete |
-| SOCL-04 | Phase 3 | Pending |
+| SOCL-04 | Phase 3 | Complete |
 | PROF-01 | Phase 3 | Pending |
 | PROF-02 | Phase 3 | Complete |
 | PROF-03 | Phase 3 | Pending |
