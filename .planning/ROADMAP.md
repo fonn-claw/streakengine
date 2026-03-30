@@ -78,10 +78,11 @@ Plans:
   2. Coach can expand a user card to see quest completion patterns over time
   3. Coach can send a nudge directly from an expanded user card
   4. Users with 30%+ engagement drop over 7 days are automatically flagged as at-risk
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 04-01: TBD
+- [ ] 04-01-PLAN.md — Coach aggregation query (engagement risk calculation, user data join), server action for heatmap detail
+- [ ] 04-02-PLAN.md — User card grid, expandable cards with habit heatmap, nudge capability, dashboard page wiring
 
 ### Phase 5: Demo Data & Deploy
 **Goal**: The app tells a compelling story with realistic data across all three demo personas
@@ -109,5 +110,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 1. Foundation | 1/2 | In Progress|  |
 | 2. Core Game Loop | 0/2 | Not started | - |
 | 3. Social & Achievements | 2/3 | In Progress|  |
-| 4. Coach Dashboard | 0/1 | Not started | - |
+| 4. Coach Dashboard | 0/2 | Not started | - |
 | 5. Demo Data & Deploy | 0/2 | Not started | - |
