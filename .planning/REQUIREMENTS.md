@@ -18,26 +18,26 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [ ] **HBIT-01**: User sees today's habits as quest cards on home screen
 - [ ] **HBIT-02**: User can complete a habit with one click (inline, no modal)
-- [ ] **HBIT-03**: Completing a habit awards XP based on habit type (different weights)
+- [x] **HBIT-03**: Completing a habit awards XP based on habit type (different weights)
 - [ ] **HBIT-04**: Partial-progress habits show inline progress blocks (e.g., water 3/8)
 - [ ] **HBIT-05**: Completed quests show pixel "DONE" stamp animation
 
 ### Streaks
 
 - [ ] **STRK-01**: User sees prominent streak counter with flame icon at top of home screen
-- [ ] **STRK-02**: Streak increments daily when user completes at least one habit
-- [ ] **STRK-03**: Streak breaks if user misses an entire day (no habits completed)
-- [ ] **STRK-04**: Streak freeze: 1 free freeze per week auto-applied on missed day
-- [ ] **STRK-05**: Streak multiplier increases with consecutive weeks (1x → 1.2x → 1.5x)
+- [x] **STRK-02**: Streak increments daily when user completes at least one habit
+- [x] **STRK-03**: Streak breaks if user misses an entire day (no habits completed)
+- [x] **STRK-04**: Streak freeze: 1 free freeze per week auto-applied on missed day
+- [x] **STRK-05**: Streak multiplier increases with consecutive weeks (1x → 1.2x → 1.5x)
 - [ ] **STRK-06**: Streak flame pulses when active, stops when at risk
 
 ### XP & Leveling
 
-- [ ] **XPLV-01**: User earns XP for each completed habit (weighted by habit type)
+- [x] **XPLV-01**: User earns XP for each completed habit (weighted by habit type)
 - [ ] **XPLV-02**: XP progress bar shows progress toward next level (blocky/segmented)
 - [ ] **XPLV-03**: Level-up triggers flash animation and "LEVEL UP!" text
 - [ ] **XPLV-04**: XP float animation (+50 XP) appears on quest completion
-- [ ] **XPLV-05**: Streak multiplier applies to all XP earned
+- [x] **XPLV-05**: Streak multiplier applies to all XP earned
 
 ### Leaderboard
 
@@ -147,20 +147,20 @@ Which phases cover which requirements. Updated during roadmap creation.
 | UIDN-07 | Phase 1 | Complete |
 | HBIT-01 | Phase 2 | Pending |
 | HBIT-02 | Phase 2 | Pending |
-| HBIT-03 | Phase 2 | Pending |
+| HBIT-03 | Phase 2 | Complete |
 | HBIT-04 | Phase 2 | Pending |
 | HBIT-05 | Phase 2 | Pending |
 | STRK-01 | Phase 2 | Pending |
-| STRK-02 | Phase 2 | Pending |
-| STRK-03 | Phase 2 | Pending |
-| STRK-04 | Phase 2 | Pending |
-| STRK-05 | Phase 2 | Pending |
+| STRK-02 | Phase 2 | Complete |
+| STRK-03 | Phase 2 | Complete |
+| STRK-04 | Phase 2 | Complete |
+| STRK-05 | Phase 2 | Complete |
 | STRK-06 | Phase 2 | Pending |
-| XPLV-01 | Phase 2 | Pending |
+| XPLV-01 | Phase 2 | Complete |
 | XPLV-02 | Phase 2 | Pending |
 | XPLV-03 | Phase 2 | Pending |
 | XPLV-04 | Phase 2 | Pending |
-| XPLV-05 | Phase 2 | Pending |
+| XPLV-05 | Phase 2 | Complete |
 | LDBD-01 | Phase 3 | Pending |
 | LDBD-02 | Phase 3 | Pending |
 | LDBD-03 | Phase 3 | Pending |

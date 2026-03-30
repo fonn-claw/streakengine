@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-stopped_at: Phase 2 context gathered
-last_updated: "2026-03-30T10:06:26.091Z"
+stopped_at: Completed 02-01-PLAN.md
+last_updated: "2026-03-30T10:25:40.012Z"
 progress:
   total_phases: 5
   completed_phases: 1
-  total_plans: 2
-  completed_plans: 2
+  total_plans: 4
+  completed_plans: 3
 ---
 
 # Project State
@@ -19,11 +19,11 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-30)
 
 **Core value:** Users feel compelled to return daily because breaking their streak has real psychological weight, earning XP feels meaningful, and friendly competition creates accountability.
-**Current focus:** Phase 01 — foundation
+**Current focus:** Phase 02 — core-game-loop
 
 ## Current Position
 
-Phase: 01 (foundation) — EXECUTING
+Phase: 02 (core-game-loop) — EXECUTING
 Plan: 2 of 2
 
 ## Performance Metrics
@@ -47,6 +47,7 @@ Plan: 2 of 2
 
 *Updated after each plan completion*
 | Phase 01 P02 | 2min | 2 tasks | 11 files |
+| Phase 02 P01 | 4min | 2 tasks | 9 files |
 
 ## Accumulated Context
 
@@ -65,6 +66,9 @@ Recent decisions affecting current work:
 - [Phase 01]: PixelButton uses Tailwind border-3 utility class instead of inline border style
 - [Phase 01]: Nav tab icons use img tags for static SVG assets, not React component imports
 - [Phase 01]: Coach layout has its own dedicated nav strip separate from game TopNav
+- [Phase 02]: Schema barrel exports relations for db.query support
+- [Phase 02]: Streak evaluation on page load handles break/freeze without cron
+- [Phase 02]: onConflictDoNothing with unique index for double-click handling
 
 ### Pending Todos
 
@@ -76,6 +80,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-30T10:06:26.088Z
-Stopped at: Phase 2 context gathered
-Resume file: .planning/phases/02-core-game-loop/02-CONTEXT.md
+Last session: 2026-03-30T10:25:40.010Z
+Stopped at: Completed 02-01-PLAN.md
+Resume file: None
