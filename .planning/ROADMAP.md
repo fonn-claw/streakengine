@@ -30,11 +30,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. User can log out from any page and is returned to login
   4. Coach account routes to a distinct dashboard layout; player accounts route to quest board layout
   5. Mobile view shows bottom tab bar navigation; desktop view shows top nav strip with centered content
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 01-01: TBD
-- [ ] 01-02: TBD
+- [ ] 01-01-PLAN.md — Project scaffold, 8-table Drizzle schema, iron-session auth with 3 demo accounts
+- [ ] 01-02-PLAN.md — Pixel-art design system, responsive navigation, styled login page, layout shells
 
 ### Phase 2: Core Game Loop
 **Goal**: Users experience the daily engagement loop -- complete quests, earn XP, watch streaks grow, level up
