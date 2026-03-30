@@ -1,5 +1,6 @@
 import { getIronSession } from "iron-session";
 import { cookies } from "next/headers";
+import { redirect } from "next/navigation";
 
 export interface SessionData {
   userId: number;
@@ -26,7 +27,7 @@ export async function getSession() {
 export async function requireAuth() {
   const session = await getSession();
   if (!session.isLoggedIn) {
-    throw new Error("Unauthorized");
+    redirect("/login");
   }
   return session;
 }
