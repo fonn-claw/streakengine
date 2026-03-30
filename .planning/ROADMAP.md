@@ -108,6 +108,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 |-------|----------------|--------|-----------|
 | 1. Foundation | 1/2 | In Progress|  |
 | 2. Core Game Loop | 0/2 | Not started | - |
-| 3. Social & Achievements | 0/3 | Not started | - |
+| 3. Social & Achievements | 1/3 | In Progress|  |
 | 4. Coach Dashboard | 0/1 | Not started | - |
 | 5. Demo Data & Deploy | 0/2 | Not started | - |

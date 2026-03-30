@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-stopped_at: Phase 3 context gathered
-last_updated: "2026-03-30T10:36:05.811Z"
+stopped_at: Completed 03-01-PLAN.md
+last_updated: "2026-03-30T10:55:45.902Z"
 progress:
   total_phases: 5
   completed_phases: 2
-  total_plans: 4
-  completed_plans: 4
+  total_plans: 7
+  completed_plans: 5
 ---
 
 # Project State
@@ -19,12 +19,12 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-30)
 
 **Core value:** Users feel compelled to return daily because breaking their streak has real psychological weight, earning XP feels meaningful, and friendly competition creates accountability.
-**Current focus:** Phase 02 — core-game-loop
+**Current focus:** Phase 03 — social-achievements
 
 ## Current Position
 
-Phase: 02 (core-game-loop) — EXECUTING
-Plan: 2 of 2
+Phase: 03 (social-achievements) — EXECUTING
+Plan: 2 of 3
 
 ## Performance Metrics
 
@@ -49,6 +49,7 @@ Plan: 2 of 2
 | Phase 01 P02 | 2min | 2 tasks | 11 files |
 | Phase 02 P01 | 4min | 2 tasks | 9 files |
 | Phase 02 P02 | 3min | 2 tasks | 9 files |
+| Phase 03 P01 | 4min | 2 tasks | 12 files |
 
 ## Accumulated Context
 
@@ -73,6 +74,10 @@ Recent decisions affecting current work:
 - [Phase 02]: useRef counter for XPFloat key to trigger new AnimatePresence animation each completion
 - [Phase 02]: Manual state in QuestCard over useOptimistic for simpler animation choreography
 - [Phase 02]: QuestBoard manages all state centrally: XP, level, quest status, re-sorting
+- [Phase 03]: Achievement engine is pure function with zero DB imports for testability
+- [Phase 03]: userAchievements unique index on (userId, achievementId) prevents double-unlock
+- [Phase 03]: Leaderboard uses LEFT JOIN + COALESCE so zero-log users still appear ranked
+- [Phase 03]: onConflictDoNothing for idempotent social actions (nudges, achievements)
 
 ### Pending Todos
 
@@ -84,6 +89,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-30T10:36:05.808Z
-Stopped at: Phase 3 context gathered
-Resume file: .planning/phases/03-social-achievements/03-CONTEXT.md
+Last session: 2026-03-30T10:55:45.899Z
+Stopped at: Completed 03-01-PLAN.md
+Resume file: None
