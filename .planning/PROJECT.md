@@ -15,22 +15,21 @@ Users feel compelled to return daily because breaking their streak has real psyc
 - ✓ Authentication with demo accounts (3 personas) — Phase 1
 - ✓ Pixel-art game aesthetic with design system — Phase 1
 - ✓ Mobile-first responsive layout with nav — Phase 1
+- ✓ Habit/quest system with XP rewards tied to specific actions — Phase 2
+- ✓ Streak tracking with loss aversion (prominent counter, flame icon, multiplier) — Phase 2
+- ✓ Streak freeze mechanic (1 free freeze per week) — Phase 2
+- ✓ Streak multiplier (consecutive weeks increase XP: 1x → 1.2x → 1.5x) — Phase 2
+- ✓ XP and leveling system with progress bars — Phase 2
+- ✓ Rewarding animations (XP float, streak pulse, level-up flash, quest complete stamp) — Phase 2
 
 ### Active
 
-- [ ] Habit/quest system with XP rewards tied to specific actions
-- [ ] Habit/quest system with XP rewards tied to specific actions
-- [ ] Streak tracking with loss aversion (prominent counter, flame icon, multiplier)
-- [ ] Streak freeze mechanic (1 free freeze per week)
-- [ ] Streak multiplier (consecutive weeks increase XP: 1x → 1.2x → 1.5x)
-- [ ] XP and leveling system with progress bars
 - [ ] Weekly leaderboard (resets Monday) with friend competition
 - [ ] Achievement/badge system with surprise unlocks
 - [ ] Weekly challenges with progress tracking
 - [ ] Friend/rival system with nudges
 - [ ] Coach/admin dashboard with engagement analytics
 - [ ] At-risk user detection (30%+ engagement drop flags user)
-- [ ] Rewarding animations (XP float, streak pulse, level-up flash, quest complete stamp)
 - [ ] Realistic demo data: 15 users, 3 months of engagement history
 
 ### Out of Scope
@@ -72,4 +71,4 @@ Users feel compelled to return daily because breaking their streak has real psyc
 | Cookie-based auth (no JWT) | Simpler for demo, session-based | — Pending |
 
 ---
-*Last updated: 2026-03-30 after Phase 1 completion*
+*Last updated: 2026-03-30 after Phase 2 completion*
