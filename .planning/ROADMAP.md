@@ -46,12 +46,11 @@ Plans:
   3. Completing at least one habit per day increments the streak; missing an entire day breaks it unless a freeze is available
   4. XP progress bar fills toward next level; leveling up triggers flash animation with "LEVEL UP!" text
   5. Streak multiplier visibly increases XP earned after consecutive weeks of activity
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
-- [ ] 02-03: TBD
+- [ ] 02-01-PLAN.md — Game engine (XP/streak pure functions), server actions, queries, seed extension
+- [ ] 02-02-PLAN.md — StreakBanner, QuestCard, animations (XP float, streak pulse, level-up flash, done stamp), home page wiring
 
 ### Phase 3: Social & Achievements
 **Goal**: Users compete with friends, unlock achievements, and view their character progression
@@ -108,7 +107,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 1/2 | In Progress|  |
-| 2. Core Game Loop | 0/3 | Not started | - |
+| 2. Core Game Loop | 0/2 | Not started | - |
 | 3. Social & Achievements | 0/3 | Not started | - |
 | 4. Coach Dashboard | 0/1 | Not started | - |
 | 5. Demo Data & Deploy | 0/2 | Not started | - |
